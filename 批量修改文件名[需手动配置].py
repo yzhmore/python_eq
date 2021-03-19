@@ -2,12 +2,12 @@
 
 import os,sys
 
-#视频文件后缀
+#视频文件后缀，根据自己所需更改后缀
 extName = ".mp4"
 extName2 = ".mkv"
 extName3 = ".avi"
 
-#被修改文件的目录地址
+#被修改文件的目录地址，文件的父文件夹名
 path = "E:/VideoList/TVPlay/" + input("please input your file path:")
 filelist = os.listdir(path)
 n = 1
