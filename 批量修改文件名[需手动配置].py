@@ -11,7 +11,7 @@ extName3 = ".avi"
 path = "E:/VideoList/TVPlay/" + input("please input your file path:")
 filelist = os.listdir(path)
 n = 1
-#想修改成的文件名
+#想修改成的文件名, 执行程序后会在该名称后自动加上数字
 wantName = "30枚银币第一季"
 
 for i in filelist:
